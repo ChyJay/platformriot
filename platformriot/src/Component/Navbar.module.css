@@ -1,0 +1,41 @@
+.home{
+    background-image:url(./images/backgroundimage.jpg);
+    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+   
+    
+    
+}
+ nav ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+.bot{
+    background-color: orangered;
+    margin-left: 40%;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    margin-top: 50px;
+
+}
+.text{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+@media screen {
+    
+}
+

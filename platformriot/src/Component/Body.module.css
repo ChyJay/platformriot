@@ -1,0 +1,18 @@
+.demo{
+    display: flex;
+    margin-left: 30%;
+}
+
+.photo{
+    width: 800px;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr; */
+    margin: 30px;
+    height: 300;
+}
+
+@media(max-width:768px){
+    .photo{
+        flex-direction: column;
+    }
+}
